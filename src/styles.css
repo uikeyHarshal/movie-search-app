@@ -1,0 +1,41 @@
+/* simple styles - paste in src/styles.css */
+
+:root{
+  --bg:#0f172a;
+  --card:#fff;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+
+*{box-sizing:border-box}
+body {
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,#f8fafc 0,#eef2ff 100%);
+  color:#0f172a;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.app{min-height:100vh;display:flex;flex-direction:column}
+.header{padding:28px 20px 0}
+.header h1{margin:0;font-size:1.6rem}
+.header .sub{margin:6px 0 18px;color:var(--muted);font-size:0.95rem}
+
+.container{max-width:1100px;margin:18px auto;padding:0 18px;flex:1}
+
+.searchBar{display:flex;gap:8px;align-items:center;margin-bottom:18px}
+.searchBar input{flex:1;padding:10px 12px;border-radius:8px;border:1px solid #e6e9ef;font-size:16px}
+.searchBar button{padding:10px 14px;border-radius:8px;border:0;background:var(--accent);color:white;font-weight:600;cursor:pointer}
+
+.error{color:#b91c1c;background:#fff1f2;padding:10px;border-radius:8px;margin-bottom:12px;border:1px solid #fca5a5}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:12px}
+.card{background:white;border-radius:10px;padding:12px;border:1px solid #e6e9ef;box-shadow:0 4px 12px rgba(15,23,42,0.04)}
+.poster{width:100%;height:320px;object-fit:cover;border-radius:8px;background:#f3f4f6;display:block}
+.card h3{margin:8px 0 4px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:0.9rem;max-height:44px;overflow:hidden}
+
+.badge{display:inline-block;padding:6px 8px;border-radius:999px;background:#eef2ff;color:var(--accent);font-weight:600;font-size:12px;margin-top:8px}
+
+.footer{padding:18px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid #e6e9ef}
