@@ -7,7 +7,7 @@ This project is designed to demonstrate strong front-end engineering skills incl
 ---
 
 ## 🚀 Live Demo  
-🔗 https://YOUR-VERCEL-URL-HERE  
+🔗 [live demo](https://movie-search-app-three-delta.vercel.app/)  
 
 ---
 
