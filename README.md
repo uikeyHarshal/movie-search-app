@@ -12,9 +12,14 @@ This project is designed to demonstrate strong front-end engineering skills incl
 ---
 
 ## 📸 Screenshots  
-(./screenshots/movie.png)
-(./screenshots/movie2.png)
-(./screenshots/tenet.png)
+
+![screenshot 1](./screenshots/movie.png)
+
+
+![screenshot 2](./screenshots/movie2.png)
+
+
+![Screenshot 3](./screenshots/tenet.png)
 
 
 ---
