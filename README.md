@@ -70,7 +70,7 @@ https://omdbapi.com/
 - Mock fallback mode for demos and offline development
 
 ---
-
+```
 ## 📂 Folder Structure
 movie-search-app/
 │
@@ -92,7 +92,7 @@ movie-search-app/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-
+```
 
 ## 👤 Author
 Harshal Uikey
